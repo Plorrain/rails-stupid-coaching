@@ -1,0 +1,8 @@
+<h1>Ask your stupid coach</h1>
+
+<form action="/answer" method="get">
+  <input type="text" name="question" value="<%= params[:question] %>">
+  <input type="submit" value="Ask!">
+</form>
+
+<%= @input_questions %>
